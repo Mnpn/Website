@@ -5,8 +5,8 @@
 
 - url: https://rfa.mnpn.dev
   name: RSS for AniList
-  language: Python
-  description: "Get RSS feeds from AniList profiles. <a href=\"https://rfa.mnpn.dev/Mnpn\">Here's mine</a>, as an example."
+  language: Swift
+  description: "Get RSS feeds from AniList profiles. <a href=\"https://rfa.mnpn.dev/anime/Mnpn\">Here's mine</a>, as an example."
 
 - url: https://github.com/Mnpn/mnpn.github.io
   name: Website
