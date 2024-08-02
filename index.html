@@ -23,7 +23,7 @@ kaomoji: ["(^ヮ^)", "(*≧ω≦*)", "(* ^ ω ^)", "(^ᴗ^)", "(⌒▽⌒)☆", 
 	</div>
 </aside>
 
-<div class="content">
+<main class="content">
 	<section>
 		<div class="title">
 			<div class="line left-side"></div>
@@ -81,7 +81,7 @@ kaomoji: ["(^ヮ^)", "(*≧ω≦*)", "(* ^ ω ^)", "(^ᴗ^)", "(⌒▽⌒)☆", 
 		<p>Mnpn {{ year }}, last built on {{ site.time | date_to_long_string: "ordinal", "US" | remove: year | remove: ", " }}</p>
 		<p>Made with <span id="kao"><noscript>:(</noscript></span> in Sweden</p>
 	</footer>
-</div>
+</main>
 
 <script>
 	let kao = {{ page.kaomoji | inspect | replace: "&quot;", "'" }};
